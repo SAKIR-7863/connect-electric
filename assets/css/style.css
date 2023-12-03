@@ -16342,10 +16342,39 @@ Contact Page
   width: 200px;
 }
 
+/* start gallery css */
+/* Only for demo purposes. */
+
+/* Start Gallery CSS */
+.thumb {
+	margin-bottom: 15px;
+}
+.thumb:last-child {
+	margin-bottom: 0;
+}
+/* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
+.thumb 
+figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.thumb 
+figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/* end gallery */
 
 
-
-
+section.gallery-part {
+  margin: 70px 0;
+}
+.thumb.gallery a figure img {
+  width: 100%;
+}
 
 
 
